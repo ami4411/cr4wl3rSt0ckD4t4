@@ -8,10 +8,10 @@ import datetime
 
 from selenium.webdriver.support.ui import WebDriverWait
 
-urlTheStar='https://www.thestar.com.my/business/marketwatch/stock-list/?alphabet='
-urlNews='https://klse.i3investor.com/jsp/newshl.jsp'
-urlBlogs='https://klse.i3investor.com/jsp/blog/bloghl.jsp'
-urlQuarter='https://klse.i3investor.com/financial/quarter/latest.jsp'
+urlTheSt4r='https://www.th3st4r.com.my/b7s1n3ss/m4rk3tw4tch/st0ck-l1st/?4lph4b3t='
+urlN3ws='https://kls3.131nv3st4r.c0m/jsp/n3wshl.jsp'
+urlBl0gs='https://kls3.131nv3st0r.c0m/jsp/bl0g/bl0ghl.jsp'
+urlQ74rt3r='https://kls3.131nv3st0r.com/f1n4nc14l/q74rt3r/l4t3st.jsp'
 
 alpha = []
 for letter in string.ascii_uppercase:
@@ -31,7 +31,7 @@ print("!!!  Connected to db")
 
 
 ##############################
-#   START CRAWLING STOCK
+#   START CR4WL1NG ST0CK
 ##############################
 for i in alpha:
     print("!!!  Now char "+ i)
@@ -77,9 +77,9 @@ for i in alpha:
     print("!!!  Done for char "+ i)    
     browser.quit()
 ##############################
-#   END CRAWLING STOCK
+#   END CR4WL1NG ST0CK
 ##############################
-#   START CRAWLING NEWS
+#   START CR4WL1NG N3WS
 ##############################
 print("!!! START CRAWLING NEWS")
 
@@ -118,9 +118,9 @@ for a in date:
 browser.quit()    
 
 ##############################
-#   END CRAWLING NEWS
+#   END CR4WL1NG N3WS
 ##############################
-#   START CRAWLING BLOGS
+#   START CR4WL1NG BL0GS
 ##############################
 print("!!! START CRAWLING BLOG")
 
@@ -166,9 +166,9 @@ browser.quit()
 
 
 ##############################
-#   END CRAWLING BLOGS
+#   END CR4WL1NG BL0GS
 ##############################
-#   START CRAWLING QUARTER RESULT
+#   START CR4WL1NG Q74RT3R R3S7LT
 ##############################
 
 """print("!!! START CRAWLING QUARTER RESULT")
@@ -219,7 +219,7 @@ while True :
     print("Next")"""
 
 ##############################
-#   END CRAWLING QUARTER RESULT
+#   END CR4WL1NG Q74RT3R R3S7LT
 ##############################
 
 
