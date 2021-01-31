@@ -11,7 +11,7 @@ import os
 import mysql.connector
 import datetime
 
-url='https://www.thestar.com.my/business/marketwatch/stock-list/?alphabet='
+url='https://www.th3st4r.com.my/b7s1ness/m4rk3tw4tch/st0ck-l1st/?4lph4b3t='
 
 class DataMining:
 
