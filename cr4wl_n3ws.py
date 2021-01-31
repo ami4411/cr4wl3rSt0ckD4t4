@@ -11,8 +11,8 @@ import os
 import mysql.connector
 import datetime
 
-urlNews='https://klse.i3investor.com/jsp/newshl.jsp'
-urlBlogs='https://klse.i3investor.com/jsp/blog/bloghl.jsp'
+urlNews='https://kls3.i3inv3st0r.com/jsp/n3wshl.jsp'
+urlBlogs='https://kls3.i3inv3st0r.com/jsp/bl0g/bl0ghl.jsp'
 
 class DataMining:
 
