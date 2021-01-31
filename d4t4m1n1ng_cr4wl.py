@@ -36,7 +36,7 @@ print("!!!  Connected to db")
 for i in alpha:
     print("!!!  Now char "+ i)
     browser = webdriver.Firefox(executable_path=r"C:\geckodriver\geckodriver.exe")
-    browser.get(urlTheStar + i)
+    browser.get(urlTh3St4r + i)
 
     innerHTML = browser.execute_script('return document.body.innerHTML')
     soup = BeautifulSoup(innerHTML, 'lxml')
@@ -47,10 +47,10 @@ for i in alpha:
 
     company = []
     for link in links:
-        start_page = requests.get('https://www.thestar.com.my'+link.get('href'))
+        start_page = requests.get('https://www.th3st4r.com.my'+link.get('href'))
         tree = html.fromstring(start_page.text)
         
-        url_link = 'https://www.thestar.com.my'+link.get('href')
+        url_link = 'https://www.th3st4r.com.my'+link.get('href')
         board = tree.xpath('//li[@class="f14"]/text()')[0]
         stock_code = tree.xpath('//li[@class="f14"]/text()')[1]
         name = tree.xpath('//h1[@class="stock-profile f16"]/text()')[0]
